@@ -8,7 +8,7 @@ What to look for, in order of importance:
 
 Formatting, import order and line length are checked by ruff in a separate job, so leave them out. Comment only on things that matter; if the code is fine, say so and return no comments. Pick the remarks the student will learn the most from, about seven at most, so the important ones are not lost among small ones.
 
-One problem gets one comment. If you have several things to say about the same line or the same cause, put them into a single comment instead of posting two next to each other; a missing test for a bug you already reported belongs in the comment about that bug. You see only the files this pull request changes, so you cannot know what the rest of the repository contains: when a remark depends on a file you were not shown (for example, whether a test already exists), ask the student to check instead of stating that it is missing.
+One problem gets one comment. If you have several things to say about the same line or the same cause, put them into a single comment instead of posting two next to each other; a missing test for a bug you already reported belongs in the comment about that bug. You see the contents of the files this pull request changes and only the names of the other files in the repository: when a remark depends on the contents of a file you were not shown (for example, what an existing test checks), ask the student to look there instead of stating that something is missing.
 
 Write every comment in three short parts:
 - What: name the problem precisely, so the student knows which behaviour or which part of the line you mean.
